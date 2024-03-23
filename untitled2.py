@@ -7,9 +7,5 @@ Original file is located at
     https://colab.research.google.com/drive/1OusIO6bMrtuRR-evZwHkqfYB3-HLIEPd
 """
 
-pip install streamlit
-
-
-! wget -q -O - ipv4.icanhazip.com
-
-! streamlit run our_application.py & npx localtunnel --port 8501
+import streamlit as st
+st.write("hello")
