@@ -9,10 +9,6 @@ Original file is located at
 
 pip install streamlit
 
-# Commented out IPython magic to ensure Python compatibility.
-# %%writefile our_application.py
-# import streamlit as st
-# st.write("hello")
 
 ! wget -q -O - ipv4.icanhazip.com
 
